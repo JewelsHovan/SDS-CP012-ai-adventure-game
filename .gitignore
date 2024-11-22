@@ -9,7 +9,7 @@
 aiadventuregame/
 langchain/
 plans/
-
+ai_adventure_game.egg-info
 
 # Temporary files and folders
 __pycache__/

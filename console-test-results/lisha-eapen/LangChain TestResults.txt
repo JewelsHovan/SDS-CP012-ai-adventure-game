@@ -1,0 +1,106 @@
+Welcome to the Fantasy Adventure Game!
+
+Choose your age group to customize your adventure experience:
+
+1. **Child** 🌈: Lighthearted, with fun learning and playful elements.
+2. **Adolescent** ⚔️: Exciting, with action, meaningful interactions, and skill-building.
+3. **Adult** 📜: Inspiring, with deeper reflection, noble decisions, and personal growth.
+
+Type "1" for Child, "2" for Adolescent, or "3" for Adult to choose your age group.       
+
+Choose your age group (1, 2, or 3): 3
+
+Now, choose your avatar.
+
+Choose your noble avatar, each committed to learning, aiding others, and rejuvenating the spirit:
+
+1. **The Guardian Knight** 🛡️: A hero of virtue, using bravery to protect others and nurture harmony.
+   - Skills: Swordsmanship, meditation, and motivational guidance.
+
+2. **The Enchanted Sage** 🌌: A wise spellcaster, helping others with knowledge and balanced wisdom.
+   - Skills: Magic spells, botanical knowledge, and storytelling.
+
+3. **The Wanderer of Light** 🌄: A skilled healer and traveler, cherishing rest and reflection.   - Skills: Healing arts, nature lore, and empathy.
+
+Type "1" for Guardian Knight, "2" for Enchanted Sage, or "3" for Wanderer of Light to choose your avatar.
+
+Choose your avatar (1, 2, or 3): 1
+
+You have chosen the Guardian Knight! As a Adult, your adventure will be inspiring and reflective. Let's begin!
+
+As the Guardian Knight, you may choose a path of:
+1. Play: Practice your sword skills in a friendly duel with a sparring partner.
+2. Others: Help villagers defend their town against a mysterious shadow.
+3. Down Time: Meditate under a sacred tree to rejuvenate your mind and body.
+Or type 'change' to switch your avatar, or 'end' to end the game.
+Enter your choice (1, 2, or 3), 'change' to switch avatar, or 'end' to end the game: 1
+As I engage in the friendly duel with my sparring partner, we both show respect and skill in our movements. 
+We exchange blows and parries, each one testing the other's reflexes and technique. The sound of clashing swords 
+fills the air, and we both focus on our footwork and timing.    
+
+As the duel progresses, I start to notice my partner's weaknesses and strengths, and I adjust my strategy accordingly.
+I push myself to improve and learn from each exchange, aiming to better understand the art of swordsmanship.
+
+After a long and intense bout, we both pause, sweat dripping down our faces, and exchange a nod of mutual respect. 
+We sheath our swords and thank each other for the challenging and invigorating practice session. The experience 
+leaves me feeling inspired and motivated to continue honing my skills as a Guardian Knight, always striving to be the 
+best warrior I can be.
+
+As the Guardian Knight, you may choose a path of:
+1. Play: Practice your sword skills in a friendly duel with a sparring partner.
+2. Others: Help villagers defend their town against a mysterious shadow.
+3. Down Time: Meditate under a sacred tree to rejuvenate your mind and body.
+Or type 'change' to switch your avatar, or 'end' to end the game.
+Enter your choice (1, 2, or 3), 'change' to switch avatar, or 'end' to end the game: 2
+As the Guardian Knight, you rally the villagers together and devise a plan to defend the town against the mysterious 
+shadow. You train them in combat techniques and assign each villager a specific role to play in the defense.
+
+As night falls, the shadow descends upon the town, its dark tendrils reaching out to engulf everything in darkness. 
+The villagers stand strong, ready to fight for their home.
+
+In a fierce battle, you lead the charge against the shadow, wielding your sword with skill and 
+precision. The villagers follow your lead, fighting bravely by your side.
+
+After a long and grueling battle, the shadow begins to retreat, unable to withstand the combined strength of the 
+Guardian Knight and the villagers. With a final strike, you vanquish the shadow, saving the town from its malevolent 
+grasp.
+
+The villagers cheer and thank you for your bravery and leadership in defending their home. As the sun rises, the town 
+is bathed in light once more, the shadow banished to the depths from whence it came. You stand proud, knowing that you
+have fulfilled your duty as a Guardian Knight and protected those in need.
+
+As the Guardian Knight, you may choose a path of:
+1. Play: Practice your sword skills in a friendly duel with a sparring partner.
+2. Others: Help villagers defend their town against a mysterious shadow.
+3. Down Time: Meditate under a sacred tree to rejuvenate your mind and body.
+Or type 'change' to switch your avatar, or 'end' to end the game.
+Enter your choice (1, 2, or 3), 'change' to switch avatar, or 'end' to end the game: 3
+As I close my eyes and focus on my breathing, I feel a sense of calm wash over me. The gentle rustling of leaves in 
+the wind and the chirping of birds in the distance create a peaceful atmosphere that allows me to let go of any 
+stress or worries.
+
+As I delve deeper into my meditation, I begin to feel a connection to the energy of the earth beneath me and the 
+spirit of the tree above me. I feel a sense of unity with nature and a renewed sense of purpose in my role as a 
+Guardian Knight.
+
+After what feels like hours, I slowly open my eyes and take in the beauty of my surroundings. The sun is setting, 
+casting a warm golden light over the landscape, and I feel a renewed sense of strength and determination to protect 
+and defend the land.
+
+With a sense of peace and clarity, I rise from my meditation and continue on my journey, ready 
+to face whatever challenges may come my way with a calm and focused mind.
+As the Guardian Knight, you may choose a path of:
+1. Play: Practice your sword skills in a friendly duel with a sparring partner.
+2. Others: Help villagers defend their town against a mysterious shadow.
+3. Down Time: Meditate under a sacred tree to rejuvenate your mind and body.
+Or type 'change' to switch your avatar, or 'end' to end the game.
+Enter your choice (1, 2, or 3), 'change' to switch avatar, or 'end' to end the game: end       
+
+You have chosen to end your journey.
+Summarizing your noble adventure...
+
+The Guardian Knight embarked on a noble adventure, starting by honing their sword skills in a friendly duel with a 
+sparring partner. They then bravely stepped in to help villagers defend their town against a mysterious shadow, 
+showcasing their courage and selflessness. In moments of quiet reflection, the Guardian Knight meditated under a 
+sacred tree to rejuvenate their mind and body, finding inner peace and strength. Through their actions, they embodied 
+the essence of chivalry, valor, and wisdom, leaving a lasting impact on all they encountered.

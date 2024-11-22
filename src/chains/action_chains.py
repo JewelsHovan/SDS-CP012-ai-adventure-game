@@ -2,7 +2,7 @@ from typing import Dict, Any, List
 from langchain.chat_models.base import BaseChatModel
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema.runnable import RunnableLambda
-from .game_chains import GameState
+from .models import GameState
 
 # Action-specific prompt templates
 MOVEMENT_PROMPT = ChatPromptTemplate.from_messages([

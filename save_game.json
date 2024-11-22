@@ -1,0 +1,42 @@
+{
+  "player_name": "",
+  "current_location": "start",
+  "player_stats": {
+    "health": 100,
+    "max_health": 100,
+    "strength": 10,
+    "dexterity": 10,
+    "intelligence": 10,
+    "equipped_items": {
+      "weapon": null,
+      "armor": null,
+      "accessory": null
+    }
+  },
+  "inventory": {},
+  "locations": {
+    "start": {
+      "name": "start",
+      "description": "Starting location",
+      "available_exits": [
+        "forest",
+        "village"
+      ],
+      "objects": [
+        "old_map",
+        "backpack"
+      ],
+      "npcs": [
+        "guide"
+      ],
+      "requirements": {},
+      "visited": false
+    }
+  },
+  "quests": {},
+  "visited_locations": [],
+  "completed_quests": [],
+  "current_enemies": {},
+  "game_start_time": "2024-11-22T13:53:56.178415",
+  "last_save_time": "2024-11-22T13:54:53.634526"
+}
