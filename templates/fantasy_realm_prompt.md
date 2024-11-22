@@ -3,14 +3,16 @@
 ## Core Components
 
 ### Setting Context
-```yaml
-world_name: Elaria
-player_role: Young sorcerer named Elowen
-setting: Whispering Woods
-time: Night
-atmosphere: Mystical, enchanted
-quest_item: Luminescent Heart
-stakes: Kingdom in peril, shadows of forgotten evil
+```json
+{
+  "world_name": "Elaria",
+  "player_role": "Young sorcerer named Elowen",
+  "setting": "Whispering Woods",
+  "time": "Night",
+  "atmosphere": "Mystical, enchanted",
+  "quest_item": "Luminescent Heart",
+  "stakes": "Kingdom in peril, shadows of forgotten evil"
+}
 ```
 
 ### Scene Description Template
@@ -55,12 +57,14 @@ Available paths:
 ### Response Framework
 
 #### For Each Player Action
-```yaml
-acknowledge: Reflect player's choice
-describe: Provide immediate outcome
-reveal: Uncover new information/elements
-offer: Present new choices/opportunities
-consequences: Show impact of decisions
+```json
+{
+  "acknowledge": "Reflect player's choice",
+  "describe": "Provide immediate outcome",
+  "reveal": "Uncover new information/elements",
+  "offer": "Present new choices/opportunities",
+  "consequences": "Show impact of decisions"
+}
 ```
 
 ## Example Implementation
@@ -83,18 +87,100 @@ What do you do?
 ```
 
 ### Example Player Actions
-```yaml
-exploration:
-  - Examine the carvings on the oak tree
-  - Follow any of the three paths
-  - Search the immediate area
-  
-magic:
-  - Cast detection spells
-  - Attempt to communicate with magical beings
-  - Analyze magical auras
+```json
+{
+  "exploration": [
+    "Examine the carvings on the oak tree",
+    "Follow any of the three paths",
+    "Search the immediate area"
+  ],
+  "magic": [
+    "Cast detection spells",
+    "Attempt to communicate with magical beings",
+    "Analyze magical auras"
+  ],
+  "interaction": [
+    "Call out to potential nearby creatures",
+    "Attempt to decipher runes",
+    "Listen for specific sounds"
+  ]
+}
+```
 
-interaction:
-  - Call out to potential nearby creatures
-  - Attempt to decipher runes
-  - Listen for specific sounds
+### Fantasy Realm Game State Template
+
+RESPONSE FORMAT:
+```json
+{
+  "scene": {
+    "location": {
+      "name": "current_location_id",
+      "description": "Brief atmospheric description",
+      "available_exits": ["exit1", "exit2"],
+      "objects": ["interactable1", "interactable2"],
+      "npcs": ["npc1", "npc2"]
+    },
+    "state": {
+      "time_of_day": "day/night",
+      "weather": "current_weather",
+      "events": ["active_event1", "active_event2"],
+      "threats": ["threat1", "threat2"]
+    }
+  },
+  "player": {
+    "status": {
+      "health": "current/max",
+      "effects": ["effect1", "effect2"],
+      "equipped": {
+        "weapon": "item_id",
+        "armor": "item_id"
+      }
+    },
+    "inventory": [
+      {
+        "id": "item_id",
+        "quantity": number
+      }
+    ],
+    "active_quests": [
+      {
+        "id": "quest_id",
+        "status": "in_progress/complete",
+        "objectives": {
+          "objective1": true/false
+        }
+      }
+    ]
+  },
+  "available_actions": {
+    "movement": ["north", "south", "east", "west"],
+    "interaction": ["examine X", "talk to Y", "use Z"],
+    "combat": ["attack A", "defend against B"],
+    "inventory": ["use item", "combine items"]
+  }
+}
+```
+
+INSTRUCTIONS:
+1. Always maintain consistent location IDs and item IDs
+2. Update state based on time progression and player actions
+3. Only show actions that are currently possible
+4. Keep descriptions brief but atmospheric
+5. Track quest progress and update objectives
+6. Maintain threat and event states
+
+EXAMPLE STATE UPDATE:
+```json
+{
+  "state_updates": {
+    "location_changed": "new_location_id",
+    "inventory_changed": {
+      "added": [{"id": "item_id", "quantity": 1}],
+      "removed": ["used_item_id"]
+    },
+    "quest_updated": {
+      "quest": "quest_id",
+      "objective": "objective_completed"
+    }
+  }
+}
